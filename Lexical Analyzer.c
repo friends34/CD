@@ -143,7 +143,7 @@ int main()
 {
 	char str[100];
 	printf("Enter the statement : ");
-	scanf("[^\n]%s",str);
+	scanf("[^\n]%c",str);
 	parse(str); 
 	return (0);
 }
